@@ -4,10 +4,10 @@ import pickle
 import plotly.graph_objs as go
 from plotly.subplots import make_subplots
 
-file_name = 'jar/data.pkl'
+database = 'jar/data.pkl'
 
 # Open the file in binary read mode and use pickle to load the data
-with open(file_name, 'rb') as file:
+with open(database, 'rb') as file:
     data = pickle.load(file)
 
 # Choose symbol logic
