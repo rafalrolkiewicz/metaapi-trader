@@ -1,0 +1,7 @@
+metaapi-cloud-sdk
+python-dotenv
+dash
+dash-bootstrap-components
+TA-Lib
+pandas
+pandas_ta
