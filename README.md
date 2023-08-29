@@ -4,7 +4,7 @@ This project aims to provide an algorithmic trading platform that allows users t
 
 ## Features
 
-- Update historical market data for all available symbols and timeframes.
+- Update historical market data for all available symbols and timeframes. Currently I'm downloading data for 102 symbols, 9 timeframes each. 
   
 <img src="screens/update_data.gif" alt="Updating data" width="800">
 
@@ -67,6 +67,20 @@ The program for updating market data is `download_market_data.py`. Run the progr
 ```bash
 python download_data.py
 ```
+
+The Algo Trading Platform utilizes a structured data storage approach to efficiently manage and organize market data. The data is stored within a dictionary structure that facilitates easy access and manipulation.
+
+- At the top level, the data is organized by symbols. Each symbol corresponds to a financial instrument, such as a currency pair or a stock.
+- For each symbol, there is a dictionary of timeframes. Timeframes represent the intervals at which market data is captured, such as 1 minute, 15 minutes, 1 hour, etc.
+- Within each timeframe dictionary, the market data is stored as a Pandas DataFrame. This DataFrame contains columns such as 'time', 'open', 'high', 'low', 'close', and 'volume'.
+
+This hierarchical structure ensures efficient retrieval and storage of market data, making it easy to perform various analyses and visualizations on historical and real-time data.
+
+The flexibility of this data storage approach allows for seamless integration of additional symbols, timeframes, and data sources as the platform evolves.
+
+The platform employs pickle files to save and load the structured data efficiently. The data is serialized into pickle files, allowing for seamless persistence between sessions and easy backup of historical market data.
+
+The flexibility of this data storage approach allows for seamless integration of additional symbols, timeframes, and data sources as the platform evolves.
 
 ### Viewing data
 
