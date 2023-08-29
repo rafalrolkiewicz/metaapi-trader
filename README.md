@@ -4,7 +4,7 @@ This project aims to provide an algorithmic trading platform that allows users t
 
 ## Features
 
-- Update historical market data for all available symbols and timeframes. Currently I'm downloading data for 102 symbols, 9 timeframes each. 
+- Update historical market data for all available symbols and timeframes through your broker. Currently, I am downloading data for 102 symbols, each with 9 timeframes, as I am using the demo version.
   
 <img src="screens/update_data.gif" alt="Updating data" width="800">
 
