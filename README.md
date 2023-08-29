@@ -6,7 +6,7 @@ This project aims to provide an algorithmic trading platform that allows users t
 
 - Update historical market data for all available symbols and timeframes.
   
-![Updating data](screens/update_data.gif)
+<img src="screens/update_data.gif" alt="Updating data" width="800">
 
 - View market data with technical analysis indicators using `talib`.
   
