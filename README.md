@@ -5,9 +5,13 @@ This project aims to provide an algorithmic trading platform that allows users t
 ## Features
 
 - Update historical market data for all available symbols and timeframes.
+  
 ![Updating data](screens/update_data.gif)
+
 - View market data with technical analysis indicators using `talib`.
-![View data](screens/view_data.gif)
+  
+<img src="screens/view_data.gif" alt="View data" width="800">
+
 - Future Features:
   - Backtest trading strategies.
   - Execute trading strategies on live data.
